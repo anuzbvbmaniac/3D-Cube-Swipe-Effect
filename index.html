@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide slide-1">
+                <h1>Mystic Villages</h1>
+                <p>Lorem ipsum dolor sit amet, conse adipisicing elit Lorem, ipsum dolor..</p>
+            </div>
+            <div class="swiper-slide slide-2">
+                <h1>Peaceful Stupas</h1>
+                <p>Lorem ipsum dolor sit amet, conse adipisicing elit Lorem, ipsum..</p>
+            </div>
+            <div class="swiper-slide slide-3">
+                <h1>Medieval Temples</h1>
+                <p>Lorem ipsum dolor sit amet, conse adipisicing elit Lorem..</p>
+            </div>
+            <div class="swiper-slide slide-4">
+                <h1>Fun-Filled Trekking</h1>
+                <p>Lorem ipsum dolor sit amet, conse adipisicing elit Lorem, ipsum dolor..</p>
+            </div>
+            <div class="swiper-slide slide-5">
+                <h1>Scenic Himalayas</h1>
+                <p>Lorem ipsum dolor sit amet, conse adipisicing elit Lorem ipsum dolor sit..</p>
+            </div>
+            <div class="swiper-slide slide-6">
+                <h1>Patan Durbar</h1>
+                <p>Lorem ipsum dolor sit amet, conse adipisicing elit Lorem..</p>
+            </div>
+            <div class="swiper-slide slide-7">
+                <h1>Woah Mountains</h1>
+                <p>Lorem ipsum dolor sit amet, conse adipisicing elit Lorem, ipsum..</p>
+            </div>
+        </div>
+
+        <!-- Pagination -->
+        <div class="swiper-pagination"></div>
+
+        <div class="swiper-button-next swiper-button-white"></div>
+        <div class="swiper-button-prev swiper-button-white"></div>
+
+    </div>
+
+
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+
+    <script>
+        
+        var swiper = new Swiper('.swiper-container', {
+            effect: 'cube',
+            grabCursor: true,
+            cubeEffect: {
+                shadow: false,
+                slideShadows: false,
+                shadowOffset: 0,
+                shadowScale: 0,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            }
+        })
+
+    </script>
+</body>
+</html>
